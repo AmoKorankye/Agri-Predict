@@ -1,0 +1,42 @@
+
+input[type=message], input[type=email], input[type=text], textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #6eab3b;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    margin-left: 300px;
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  button[type=submit] {
+    color: #000000;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #FFFFFF; 
+    border: 1px solid #6eab3b; 
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-left: 575px;
+
+  }
+
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  button[type=submit]:hover {
+    background-color: #6eab3b;
+  }
+  
+  
+  /* Hide Streamlit Branding */
+  #MainMenu {visibility: hidden;}
+  footer {visibility: hidden;}
+  header {visibility: hidden;}
+
+
+  
